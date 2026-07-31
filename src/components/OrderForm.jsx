@@ -70,6 +70,34 @@ export default function OrderForm() {
               </div>
               <div className="harga-price">Rp 150.000<small>/ ekor</small></div>
             </div>
+
+            <div 
+              className={`harga-item ${selectedItem === 'Betutu Paha' ? 'selected' : ''}`}
+              onClick={() => handleItemSelect('Betutu Paha', 35000)}
+            >
+              <div className="harga-info">
+                <div className="harga-dot"></div>
+                <div>
+                  <h4>Betutu Paha</h4>
+                  <p>1 porsi paha + Nasi</p>
+                </div>
+              </div>
+              <div className="harga-price">Rp 35.000<small>/ porsi</small></div>
+            </div>
+
+            <div 
+              className={`harga-item ${selectedItem === 'Betutu Dada' ? 'selected' : ''}`}
+              onClick={() => handleItemSelect('Betutu Dada', 35000)}
+            >
+              <div className="harga-info">
+                <div className="harga-dot"></div>
+                <div>
+                  <h4>Betutu Dada</h4>
+                  <p>1 porsi dada + Nasi</p>
+                </div>
+              </div>
+              <div className="harga-price">Rp 35.000<small>/ porsi</small></div>
+            </div>
             
             <div 
               className={`harga-item ${selectedItem === 'Paket Keluarga' ? 'selected' : ''}`}

@@ -75,6 +75,44 @@ export default function Menu() {
               </div>
             </div>
           </div>
+          
+          {/* Betutu Paha */}
+          <div className="menu-item visible">
+            <div className="menu-img">
+              <div className="menu-img-placeholder">
+                <i className="fas fa-drumstick-bite"></i>
+                <span>Betutu Paha</span>
+                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>(taruh foto)</span>
+              </div>
+            </div>
+            <div className="menu-body">
+              <h3>Betutu Paha</h3>
+              <p>Potongan paha juicy, cocok untuk 1 porsi, bumbu meresap sempurna.</p>
+              <div className="menu-footer">
+                <div className="menu-price">Rp 35.000<small>/ porsi</small></div>
+                <button className="add-btn"><i className="fas fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
+          
+          {/* Betutu Dada */}
+          <div className="menu-item visible">
+            <div className="menu-img">
+              <div className="menu-img-placeholder">
+                <i className="fas fa-egg"></i>
+                <span>Betutu Dada</span>
+                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>(taruh foto)</span>
+              </div>
+            </div>
+            <div className="menu-body">
+              <h3>Betutu Dada</h3>
+              <p>Dada ayam lembut, bumbu meresap dalam, nikmat disantap kapan saja.</p>
+              <div className="menu-footer">
+                <div className="menu-price">Rp 35.000<small>/ porsi</small></div>
+                <button className="add-btn"><i className="fas fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
