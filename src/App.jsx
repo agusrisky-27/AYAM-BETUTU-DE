@@ -4,7 +4,6 @@ import About from "./components/About";
 import Menu from "./components/Menu";
 import OrderForm from "./components/OrderForm";
 import Testimonials from "./components/Testimonials";
-import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -18,7 +17,6 @@ export default function App() {
         <Menu />
         <OrderForm />
         <Testimonials />
-        <Gallery />
         <Contact />
       </main>
       <Footer />
